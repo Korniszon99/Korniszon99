@@ -1,5 +1,5 @@
 # 💫 About Me:
-Im Kornel<br>2nd year Geoinformatics student at Warsaw University of Technology <br>🔭 I’m currently working on flutter full stack app with life time geocoding<br>🌱 I’m currently learning more about Django and fastapi
+Im Kornel<br>3rd year Geoinformatics student at Warsaw University of Technology <br>🔭 I’m currently working on flutter full stack app with life time geocoding<br>🌱 I’m currently learning more about Django and fastapi
 
 
 ## 🌐 Socials:
