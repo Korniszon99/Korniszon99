@@ -1,18 +1,25 @@
-# 💫 About Me:
-Im Kornel<br>3rd year Geoinformatics student at Warsaw University of Technology <br>🔭 I’m currently working on flutter full stack app with life time geocoding<br>🌱 I’m currently learning more about Django and fastapi
+# Korneliusz Musiał
 
+I build software around spatial data, image acquisition and 3D reconstruction. My current development direction is **computer vision and AI**, with a particular interest in neural scene representations and the geometry behind them.
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/korneliusz-musiał-8992a2242) 
+## Selected projects
 
-# 💻 Tech Stack:
-![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Sketch Up](https://img.shields.io/badge/SketchUp-005F9E?style=for-the-badge&logo=sketchup&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Korniszon99&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Korniszon99&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Korniszon99&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+| Project | What it demonstrates | Current scope |
+| --- | --- | --- |
+| [NeRF vs Gaussian Splatting](https://github.com/Korniszon99/nerf_vs_gaussian) | 3D vision experiment orchestration, datasets, camera poses, training logs and reconstruction artifacts | Research workbench; held-out comparison results still to publish |
+| [Photogrammetric Flight Planner](https://github.com/Korniszon99/fotogrametia_projekt_nalotu) | Camera geometry, GSD, overlap constraints and acquisition visualization | Educational flat-ground planner |
+| [EuroRace Backend](https://github.com/Korniszon99/eurorace_backend) | Spatial APIs, PostGIS, WebSockets and authorization | Event backend prototype with integration/deployment requirements |
 
----
-[![](https://visitcount.itsvg.in/api?id=Korniszon99&icon=0&color=0)](https://visitcount.itsvg.in)
+## Supporting work
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+- [Computational Geometry](https://github.com/Korniszon99/Geometria_Obliczeniowa): an interactive point-orientation demo.
+- [PW Hub](https://github.com/Korniszon99/PW_hub_flutter): a Flutter student information prototype.
+- [SSPW Photo Task Game](https://github.com/Korniszon99/SSPWPhotoTaskGame): photo tasks, uploads and rankings.
+- [Varsonalia Map](https://github.com/Korniszon99/varso_mapka): an event map with team and station workflows.
+- [Azure Training](https://github.com/Korniszon99/training-azure-102026): microservice deployment exercises and training organization.
+
+## Current focus
+
+Building reproducible 3D reconstruction comparisons with explicit datasets, evaluation splits, hardware budgets and visual failure cases. I want each portfolio case study to make the implementation, my contribution and the evidence behind its claims easy to inspect.
+
+[Portfolio website source](https://github.com/Korniszon99/korneliusz.musial) · [Repository audit and portfolio selection](docs/repository-audit-2026-10-12.md)
