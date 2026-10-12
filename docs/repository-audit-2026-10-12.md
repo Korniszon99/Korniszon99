@@ -2,7 +2,7 @@
 
 Date: 2026-10-12. Account: Korniszon99. Scope: 11 owned repositories accessible through the connected GitHub account.
 
-**Publication status:** GitHub write access was verified after installing the connector on the personal Korniszon99 account. Changes are being prepared on separate review branches; local verification is summarized below. Production deployment and credential rotation are separate operational actions.
+**Publication status:** 11 pull requests are open on separate review branches. Their application checks and current-source secret scans passed on GitHub. All PRs are ready for review; no default branch was merged and no exposed runtime credential was rotated.
 
 ## Portfolio priorities
 
@@ -10,7 +10,7 @@ Date: 2026-10-12. Account: Korniszon99. Scope: 11 owned repositories accessible 
 | --- | --- | --- |
 | 1 | nerf_vs_gaussian | Strongest direct 3D CV/AI fit: dataset/pose models, Nerfstudio runner, metrics/artifacts and a Django experiment UI. 103 web/service tests pass after repairs, using mocked GPU tooling. Publish real held-out reconstruction benchmarks before claiming comparative performance. |
 | 2 | fotogrametia_projekt_nalotu | Relevant camera/photogrammetry geometry and image acquisition planning. Four tests cover units, overlap, invalid inputs and CSRF. Present as an educational model, with reproducible numerical examples and existing screenshots. |
-| 3 | eurorace_backend | Supporting spatial backend: PostGIS, REST, WebSockets and event data. Demonstrates engineering around spatial/visual workloads. Integration results and deployment configuration remain a readiness gate. |
+| 3 | eurorace_backend | Supporting spatial backend: PostGIS, REST, WebSockets and event data. Demonstrates engineering around spatial/visual workloads. PostGIS integration tests, migration checks and a Docker build passed on GitHub; deployment configuration remains a readiness gate. |
 | Supporting | Geometria_Obliczeniowa | Small orientation predicate demo; three tests pass. Useful for foundations, too limited to lead the portfolio. |
 | Supporting | PW_hub_flutter | UI/mobile prototype; the README and smoke test were replaced. Full historical scan and device validation remain incomplete. |
 | Supporting | SSPWPhotoTaskGame / PWGame | Related event photo-game code; show one case study with accurate contribution/ownership, rather than two nearly identical projects. |
@@ -39,8 +39,8 @@ Documentation token examples and the copied CircleCI badge were scanner candidat
 | Planner Python resolution | Old pinned Django 4.2.7 and image/numeric stack | Updated bounded requirements; pip-audit reported no known findings in the resolved set |
 | NeRF web Python resolution | Runtime and test packages mixed | Runtime/dev separation; pip-audit reported no known findings in the resolved web/test set. Nerfstudio/PyTorch/CUDA environment was not installed or audited |
 | Geometry Python resolution | No dependency manifest | Runtime/dev manifests; pip-audit reported no known findings in the resolved set |
-| EuroRace | Duplicate manifests; non-canonical django-rest-framework package; Docker list drift | Canonical djangorestframework and one manifest. Full installation/integration validation depends on CI because local dj-rest-auth retrieval and GDAL were unavailable |
-| Flutter | Unused cupertino_icons; stale template test | Removed unused icon dependency, replaced smoke test and added CI; Flutter SDK/device builds were unavailable locally |
+| EuroRace | Duplicate manifests; non-canonical django-rest-framework package; Docker list drift | Canonical djangorestframework and one manifest. GitHub CI passed dependency installation, PostGIS integration tests, migration checks, a Docker build and a dependency audit. Those checks were unavailable in the local environment |
+| Flutter | Unused cupertino_icons; stale template test | Removed unused icon dependency, replaced smoke test and added CI; GitHub CI passed Flutter analysis, widget tests and the web build; physical-device/release-signing validation remains unverified |
 
 Counts refer to affected dependency packages, not distinct advisories. Audits describe the resolved versions on this date and do not establish exploitability or permanent safety.
 
@@ -53,6 +53,26 @@ PHP runtime, Flutter SDK, Docker and PostGIS integration were not available loca
 Git history was scanned from all fetched refs of the ten fully materialized mirrors. Flutter's partial mirror was incomplete: automatic review rejected the implicit network fetch during the historical scan. Its downloaded current text was scanned locally; full Flutter history remains unverified. Binary assets, external hosted services and actual runtime configurations were not comprehensively audited.
 
 The current NeRF database snapshot contained no user/session rows, three datasets and twelve runs. Its historical copies remain available in Git; removing the file from the source tree is not a history purge.
+
+## Published changes and GitHub verification
+
+| Repository | Pull request | GitHub CI |
+| --- | --- | --- |
+| eurorace_backend | [#1](https://github.com/Korniszon99/eurorace_backend/pull/1) | Passed on the current head |
+| fotogrametia_projekt_nalotu | [#1](https://github.com/Korniszon99/fotogrametia_projekt_nalotu/pull/1) | Passed on the current head |
+| Geometria_Obliczeniowa | [#1](https://github.com/Korniszon99/Geometria_Obliczeniowa/pull/1) | Passed on the current head |
+| korneliusz.musial | [#5](https://github.com/Korniszon99/korneliusz.musial/pull/5) | Passed on the current head |
+| Korniszon99 | [#1](https://github.com/Korniszon99/Korniszon99/pull/1) | Passed on the current head |
+| nerf_vs_gaussian | [#10](https://github.com/Korniszon99/nerf_vs_gaussian/pull/10) | Passed on the current head |
+| PWGame | [#1](https://github.com/Korniszon99/PWGame/pull/1) | Passed on the current head |
+| PW_hub_flutter | [#1](https://github.com/Korniszon99/PW_hub_flutter/pull/1) | Passed on the current head |
+| SSPWPhotoTaskGame | [#3](https://github.com/Korniszon99/SSPWPhotoTaskGame/pull/3) | Passed on the current head |
+| training-azure-102026 | [#2](https://github.com/Korniszon99/training-azure-102026/pull/2) | Passed on the current head |
+| varso_mapka | [#1](https://github.com/Korniszon99/varso_mapka/pull/1) | Passed on the current head |
+
+EuroRace includes regression checks for location ownership, authenticated identity binding, malformed coordinate payloads and restricted task mutation. Both PHP bootstraps check absence of default credentials, explicit creation from operator input and preservation of existing account passwords. The SSPW SQLite URL bug found by CI was fixed; the rerun passed.
+
+Passing CI is not a production-readiness guarantee. Complete deployment-specific credential rotation, TLS/storage configuration and browser/device checks before rollout. Existing workflows can deploy from a default-branch merge, so no automatic merge or production rollout was performed.
 
 ## Next portfolio work
 
