@@ -7,8 +7,8 @@
 I build things where **images, geometry and software** meet.<br>
 My direction: **computer vision & AI**, with a focus on **3D reconstruction** and **spatial data**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-7AA2F7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1A1B27)](https://linkedin.com/in/korneliusz-musiał-8992a2242)
-[![Portfolio source](https://img.shields.io/badge/Portfolio-Explore_the_code-BB9AF7?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1B27)]([https://github.com/Korniszon99/korneliusz.musial](https://korniszon99.github.io/korneliusz.musial/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-7AA2F7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1A1B27)](https://www.linkedin.com/in/korneliusz-musial/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Explore_the_projects-BB9AF7?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1B27)](https://korniszon99.github.io/korneliusz.musial/)
 
 </div>
 
