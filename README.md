@@ -7,8 +7,8 @@
 I build things where **images, geometry and software** meet.<br>
 My direction: **computer vision & AI**, with a focus on **3D reconstruction** and **spatial data**.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-7AA2F7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1A1B27)](https://linkedin.com/in/korneliusz-musiał-8992a2242)
-[![Portfolio source](https://img.shields.io/badge/Portfolio-Explore_the_code-BB9AF7?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1B27)]([https://github.com/Korniszon99/korneliusz.musial](https://korniszon99.github.io/korneliusz.musial/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-7AA2F7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1A1B27)](https://www.linkedin.com/in/korneliusz-musial/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Explore_the_projects-BB9AF7?style=for-the-badge&logo=github&logoColor=white&labelColor=1A1B27)](https://korniszon99.github.io/korneliusz.musial/)
 
 </div>
 
@@ -20,6 +20,15 @@ My direction: **computer vision & AI**, with a focus on **3D reconstruction** an
 🔭 **Currently exploring** neural scene representations and the geometry behind them.<br>
 🛠️ **Connecting the pieces** — from image acquisition and spatial data to APIs and usable interfaces.<br>
 🌱 **Next step:** reproducible NeRF / Gaussian splatting comparisons, with visual results and a clear evaluation setup.
+
+## 🔎 What I bring
+
+- **Computer vision:** YOLO training for ground control point detection, SAHI inference on high-resolution imagery, and analysis of prediction errors during my Skysnap internship.
+- **Python engineering:** Django backends, API integration and photogrammetric workflows in Apache Airflow.
+- **Current work:** finance product dictionary automation in Power Automate and Copilot Studio at Polpharma.
+- **Next direction:** a technically focused Python / AI / computer vision role. My portfolio includes downloadable CVs in English and Polish.
+
+C++ is a foundation from my studies. My CUDA experience is running GPU training for YOLO, NeRF and Gaussian Splatting, rather than writing custom CUDA kernels. Rust is a planned learning direction through a scoped GS project.
 
 ## 💻 My toolkit
 
@@ -123,3 +132,4 @@ A **geospatial event backend** combining spatial APIs, participant location repo
 <sub>Computer vision · Geometry · Software engineering</sub>
 
 </div>
+
