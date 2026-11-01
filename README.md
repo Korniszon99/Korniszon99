@@ -26,7 +26,7 @@ My direction: **computer vision & AI**, with a focus on **3D reconstruction** an
 - **Computer vision:** YOLO training for ground control point detection, SAHI inference on high-resolution imagery, and analysis of prediction errors during my Skysnap internship.
 - **Python engineering:** Django backends, API integration and photogrammetric workflows in Apache Airflow.
 - **Current work:** finance product dictionary automation in Power Automate and Copilot Studio at Polpharma.
-- **Next direction:** a technically focused Python / AI / computer vision role. My portfolio includes downloadable CVs in English and Polish.
+- **Next direction:** a technically focused Python / AI / computer vision role. My portfolio includes project details and a contact link to request a CV in English or Polish.
 
 C++ is a foundation from my studies. My CUDA experience is running GPU training for YOLO, NeRF and Gaussian Splatting, rather than writing custom CUDA kernels. Rust is a planned learning direction through a scoped GS project.
 
